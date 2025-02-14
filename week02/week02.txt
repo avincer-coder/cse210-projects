@@ -1,0 +1,62 @@
+0. Menu que de a escojer:
+    1 Escribir nueva anectota (array)
+    2 Mostrar Diario (array)
+    3 Guardar diario en un archivo (crear csv)
+    4 Cargar Diario de un archivo (csv)
+    5. Terminar programa (crear csv)
+Slecciona el numero - mensaje
+
+0 class MostrarMenu(1)
+    salida de datos
+
+1 class GuardarAnectota(anectota)
+    guardar array
+
+class RegresarMenu(){
+    MostrarMenu
+}
+
+2 class MostrarAnectotas(){
+    Leer array y mostrarlo en consola
+    2.1RegresarMenu()
+}
+
+3. class CrearCsv(){
+    crea archivo csv con anectotas
+}
+
+class BuscarCsv(){
+    if AgregarInfoCsv
+    else CrearCsv
+}
+
+class AgregarInfoCsv(){
+    RegresarMenu
+}
+
+4 class LeerCsv(){
+    propmt file name
+    if mostrar en consola anectotas
+    else decir no exsiste y RegresarMenu
+}
+
+
+
+
+1.0 Crear array de preguntas aleatorias
+1.1 Clase que pregunte al usuario pregunta aleatoria con console.prompt(promt-entrada de datos) (usar .random)
+1.2 Usuario contesta la pregunta (entrada de datos)
+1.3 Al terminar de escribir el usario da enter y se guarda su respuesta (guardar datos en array/csv)
+1.4 Regresar usuario al menu principal (retornar Menu)
+
+
+2.0 Cargar en consola la array de las anectotas escritas (leer data.csv)
+2.1 Opcion de volver a menu (retornar menu)
+
+3.0 Guardar anectotas en un archivo .csv
+3.1 regresa al menu (retornar menu)
+
+4.0 Leer archivo csv
+
+1. Crear array para gurdar para preguntas random (string)
+3. Guardar la respuesta en la array
